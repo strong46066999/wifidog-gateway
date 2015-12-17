@@ -190,7 +190,7 @@ safe_fork(void)
         exit(1);
     } else if (result == 0) {
         /* I'm the child - do some cleanup */
-        cleanup_fds();
+        //cleanup_fds();
     }
 
     return result;
